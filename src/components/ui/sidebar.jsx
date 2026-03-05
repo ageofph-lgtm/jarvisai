@@ -422,8 +422,7 @@ const sidebarMenuButtonVariants = cva(
   }
 )
 
-const SidebarMenuButton = React.forwardRef((
-  {
+const SidebarMenuButton = React.forwardRef(({
     asChild = false,
     isActive = false,
     variant = "default",
